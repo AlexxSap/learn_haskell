@@ -6,6 +6,7 @@
 - типы высших порядков
 - экземпляры классов типов
 - монады
+https://www.rsdn.org/article/funcprog/monad.xml
 - монада maybe
 - разница между = и <-
 - класс Show
@@ -14,3 +15,5 @@
 - расширения языка
 - undefined
 - работа с памятью
+
+https://www.rsdn.org/article/haskell/HaskellStateMachine.xml
