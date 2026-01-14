@@ -9,7 +9,6 @@ https://www.rsdn.org/article/funcprog/monad.xml
 - монада maybe
 - разница между = и <-
 - расширения языка
-- undefined
 - работа с памятью
 - линейные классы
 
