@@ -24,4 +24,4 @@ instance Show TrafficLight where
 someFunc :: (Bounded a, Enum a) => a -> a -> a
 ```
 
-В примере выше, функция `someFunc` работает с любыми экземплярами классов `Bounded` и `Enum`.
+В примере выше, функция `someFunc` работает с любыми экземплярами, которые реализуют одновременно классы типов `Bounded` и `Enum`.
