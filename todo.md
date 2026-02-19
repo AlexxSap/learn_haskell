@@ -17,6 +17,7 @@ OverloadedRecordDot
 - линзы
 - что содержит файл cabal и прочие файлы
 - pure
+- ! в типах
 - >>=
 https://discourse.haskell.org/t/monad-of-no-return-next-steps/11443
 
