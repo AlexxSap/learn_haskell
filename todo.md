@@ -18,7 +18,7 @@ OverloadedRecordDot
 - pure
 - ! в типах
 - foldable
-- traversable
+- traversable, traverse, for
 - >>=
 https://discourse.haskell.org/t/monad-of-no-return-next-steps/11443
 
