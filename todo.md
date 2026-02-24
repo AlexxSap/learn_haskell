@@ -9,9 +9,6 @@
 - типы высших порядков
 - монады
 https://www.rsdn.org/article/funcprog/monad.xml
-- расширения языка
-DuplicateRecordFields
-OverloadedRecordDot
 - работа с памятью
 - линейные классы
 - линзы
