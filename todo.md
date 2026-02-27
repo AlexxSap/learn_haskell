@@ -19,4 +19,6 @@ https://www.rsdn.org/article/funcprog/monad.xml
 - >>=
 https://discourse.haskell.org/t/monad-of-no-return-next-steps/11443
 
+- как запустить функцию в интерпретаторе шаг за шагом
+
 https://www.rsdn.org/article/haskell/HaskellStateMachine.xml
