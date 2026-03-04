@@ -12,12 +12,16 @@ https://www.rsdn.org/article/funcprog/monad.xml
 - линейные классы
 - линзы
 - pure
-- ! в типах
 - foldable
 - traversable, traverse, for
 - >>=
 https://discourse.haskell.org/t/monad-of-no-return-next-steps/11443
 
 - как запустить функцию в интерпретаторе шаг за шагом
+- brick - tui for haskell
+- tchan - транзакционный канал Александр Вершилов
+- работа с БД
+- web-sockets
+- 
 
 https://www.rsdn.org/article/haskell/HaskellStateMachine.xml
