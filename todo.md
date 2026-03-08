@@ -22,6 +22,6 @@ https://discourse.haskell.org/t/monad-of-no-return-next-steps/11443
 - tchan - транзакционный канал Александр Вершилов
 - работа с БД
 - web-sockets
-- 
+- сериализация структур
 
 https://www.rsdn.org/article/haskell/HaskellStateMachine.xml
