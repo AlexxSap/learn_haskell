@@ -23,5 +23,7 @@ https://discourse.haskell.org/t/monad-of-no-return-next-steps/11443
 - работа с БД
 - web-sockets
 - сериализация структур
+- исключения IOException
+- Either
 
 https://www.rsdn.org/article/haskell/HaskellStateMachine.xml
