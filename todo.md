@@ -25,5 +25,7 @@ https://discourse.haskell.org/t/monad-of-no-return-next-steps/11443
 - сериализация структур
 - исключения IOException
 - Either
+- cabal repl
 
 https://www.rsdn.org/article/haskell/HaskellStateMachine.xml
+https://mmhaskell.com/monads
