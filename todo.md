@@ -5,13 +5,11 @@
 - дженерики
 - рекурсивные типы
 - типы высших порядков
-- cписки как контекст
 - монады
 https://www.rsdn.org/article/funcprog/monad.xml
 - работа с памятью
 - линейные классы
 - линзы
-- pure
 - foldable
 - traversable, traverse, for
 - >>=
