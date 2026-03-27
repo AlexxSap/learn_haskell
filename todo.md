@@ -19,4 +19,8 @@
 - cabal repl
 - стандартные монады
 https://www.rsdn.org/article/funcprog/monad.xml
+- >=> - монадическая композиция
+- FizzBuzz в разных стилях - просто функции, генераторы, монады
+- монады и do
+- guard и Alternative
 
