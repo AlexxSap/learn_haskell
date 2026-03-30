@@ -24,3 +24,4 @@ https://www.rsdn.org/article/funcprog/monad.xml
 - монады и do
 - guard и Alternative
 
+https://github.com/graninas/hierarchical-free-monads-the-most-developed-approach-in-haskell
