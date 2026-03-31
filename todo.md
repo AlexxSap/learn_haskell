@@ -21,6 +21,5 @@
 https://www.rsdn.org/article/funcprog/monad.xml
 - >=> - монадическая композиция
 - FizzBuzz в разных стилях - просто функции, генераторы, монады
-- guard и Alternative
 
 https://github.com/graninas/hierarchical-free-monads-the-most-developed-approach-in-haskell
