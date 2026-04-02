@@ -21,7 +21,6 @@
 https://www.rsdn.org/article/funcprog/monad.xml
     reader and writer
     state
-    identity
     Error 
     MonadPlus
 - >=> - монадическая композиция
