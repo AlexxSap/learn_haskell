@@ -19,7 +19,13 @@
 - cabal repl
 - стандартные монады
 https://www.rsdn.org/article/funcprog/monad.xml
+    reader and writer
+    state
+    identity
+    Error 
+    MonadPlus
 - >=> - монадическая композиция
 - FizzBuzz в разных стилях - просто функции, генераторы, монады
+- https://ruhaskell.org/authors.html
 
 https://github.com/graninas/hierarchical-free-monads-the-most-developed-approach-in-haskell
