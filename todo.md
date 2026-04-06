@@ -22,7 +22,9 @@ https://www.rsdn.org/article/funcprog/monad.xml
     reader and writer
     state
     Error 
+    either
     MonadPlus
+- трансформеры монад
 - >=> - монадическая композиция
 - FizzBuzz в разных стилях - просто функции, генераторы, монады
 - https://ruhaskell.org/authors.html
