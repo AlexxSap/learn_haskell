@@ -19,7 +19,7 @@
 - cabal repl
 - стандартные монады
 https://www.rsdn.org/article/funcprog/monad.xml
-    reader and writer
+    reader
     state
     Error 
     MonadPlus
