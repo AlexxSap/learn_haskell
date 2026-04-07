@@ -22,7 +22,6 @@ https://www.rsdn.org/article/funcprog/monad.xml
     reader and writer
     state
     Error 
-    either
     MonadPlus
 - трансформеры монад
 - >=> - монадическая композиция
