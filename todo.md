@@ -18,8 +18,6 @@
 - Either
 - cabal repl
 - стандартные монады
-https://www.rsdn.org/article/funcprog/monad.xml
-    state
     Error 
     MonadPlus
 - трансформеры монад
