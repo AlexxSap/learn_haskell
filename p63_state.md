@@ -13,7 +13,7 @@ newtype State s a = State { runState :: s –> (a, s) }
 , где `s` - тип состояния, 
 `a` - результат вычислений с состоянием.
 
-Функция `get` возвращает текущее состояние,а ункция `put` меняет текущее состояние:
+Функция `get` возвращает текущее состояние,а функция `put` меняет текущее состояние:
 ```haskell
 get = state $ \s –> (s, s) -- возвращает состояние и как результат тоже
 put newState = state $ \s –> ((), newState) -- возвращает новое состояние без результата
@@ -26,25 +26,42 @@ execState :: State s a -> s -> s
 modify :: MonadState s m => (s -> s) -> m ()
 ```
 
+Отдельно можно рассмотреть реализацию связывания (bind, `>>==`) для монады `State`:
+```haskell
+instance Monad (State s) where
+  (State h) >>= f = State $ \s –> 
+    let (a, newState) = h s 
+        (State g) = f a 
+    in g newState
+```
+Сначала мы вычисляем результат `a` и новое состояние `newState` передав текущее состояние `s` в вычисление с состоянием `h`. Затем результат `a` используем для вычисления `f a` и получаем новое вычисление с состоянием `g`. Далее применяем это вычисление к новому состоянию `newState`. 
+
 //TODO переделать пример
 Пример:
 ```haskell
+module Main (main) where
+
 import Control.Monad.State.Strict
 
-increment :: State Int ()
-increment = modify (+1)
+inc :: State Int Int
+inc = do
+  modify (+1)
+  get
 
-counter :: State Int Int
-counter = do
-  increment
-  increment
-  increment
-  get  -- вернуть текущее значение
+mul2 :: State Int Int
+mul2 = do
+  modify (*2)
+  get
 
--- Запуск:
--- evalState counter 0  => 3
--- execState counter 10 => 13
--- runState  counter 5  => (8, 8)
+calc :: State Int (Int, Int)
+calc = do
+  x <- inc
+  y <- mul2
+  pure (x, y)
+
+main :: IO ()
+main = do
+  print $ evalState calc 3 -- (4, 8)
 ```
 
 Есть две версии `State` - ленивая (в `Control.Monad.State.Lazy`) и строгая (`Control.Monad.State.Strict`). Ленивая версия лениво меняет состояние, из-за этого может быть утечка на накопление `thunk`.
