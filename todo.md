@@ -15,14 +15,10 @@
 - web-sockets
 - сериализация структур
 - исключения IOException
-- Either
 - cabal repl
 - стандартные монады
-    Error 
     MonadPlus
 - трансформеры монад
-- >=> - монадическая композиция
+- join
+- >=> и <==< - монадическая композиция
 - FizzBuzz в разных стилях - просто функции, генераторы, монады
-- https://ruhaskell.org/authors.html
-
-https://github.com/graninas/hierarchical-free-monads-the-most-developed-approach-in-haskell
