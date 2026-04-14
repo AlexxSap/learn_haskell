@@ -19,8 +19,6 @@ https://ruhaskell.org/posts/packages/2015/01/28/lenses-real-world.html
 - исключения IOException
 - cabal repl
 - FFI
-- стандартные монады
-    MonadPlus
 - трансформеры монад
 - join
 - >=> и <==< - монадическая композиция
