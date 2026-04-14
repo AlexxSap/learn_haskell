@@ -7,6 +7,8 @@
 - работа с памятью
 - линейные классы
 - линзы
+https://ruhaskell.org/posts/packages/2015/01/23/lenses-hello-world.html
+https://ruhaskell.org/posts/packages/2015/01/28/lenses-real-world.html
 - foldable
 - traversable, traverse, for
 - brick - tui for haskell
@@ -16,6 +18,7 @@
 - сериализация структур
 - исключения IOException
 - cabal repl
+- FFI
 - стандартные монады
     MonadPlus
 - трансформеры монад
