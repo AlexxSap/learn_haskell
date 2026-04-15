@@ -23,8 +23,6 @@ https://ruhaskell.org/posts/packages/2015/01/28/lenses-real-world.html
 - join
 - >=> и <==< - монадическая композиция
 - FizzBuzz в разных стилях - просто функции, генераторы, монады
-- Pattern synonyms¶
-https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/pattern_synonyms.html
 - idiom Smart constructors
 https://wiki.haskell.org/index.php?title=Smart_constructors
 - идиомы
