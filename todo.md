@@ -20,7 +20,6 @@ https://ruhaskell.org/posts/packages/2015/01/28/lenses-real-world.html
 - cabal repl
 - FFI
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/ffi.html
-- http-client
 - класс типов Generic
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/generics.html
 - трансформеры монад
