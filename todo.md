@@ -23,6 +23,8 @@ https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/ffi.html
 - класс типов Generic
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/generics.html
 - трансформеры монад
+- req
+- wreq
 - join
 - >=> и <==< - монадическая композиция
 - FizzBuzz в разных стилях - просто функции, генераторы, монады
