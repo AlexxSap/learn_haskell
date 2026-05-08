@@ -1,6 +1,6 @@
 **Работа с БД**
 
-Для работы с БД в haskell сеть 2 подхода - прямые запросы (simple) и типобезопасный ORM-подобный (persistent). Ниже рассмотрен первый вариант на примере sqlite и библиотеки sqlite-simple. Подобные библиотеки есть для mysql (mysql-simple) и postgreSQL (postgresql-simple).
+Для работы с БД в haskell есть 2 подхода - прямые запросы (simple) и типобезопасный ORM-подобный (persistent). Ниже рассмотрен первый вариант на примере sqlite и библиотеки sqlite-simple. Подобные библиотеки есть для mysql (mysql-simple) и postgreSQL (postgresql-simple).
 
 Для соединения с БД и закрытия соединения используются функции, оперирующие типом `Connection`:
 ```haskell

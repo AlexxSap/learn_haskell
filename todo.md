@@ -10,6 +10,9 @@ https://ruhaskell.org/posts/packages/2015/01/28/lenses-real-world.html
 - brick - tui for haskell
 - tchan - транзакционный канал Александр Вершилов
 - web-sockets
+- работа с БД - hasql
+- работа с БД - postgresql-libpq
+- работа с БД - persistent
 - сериализация структур
 - FFI
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/ffi.html
