@@ -9,7 +9,6 @@ https://ruhaskell.org/posts/packages/2015/01/23/lenses-hello-world.html
 https://ruhaskell.org/posts/packages/2015/01/28/lenses-real-world.html
 - brick - tui for haskell
 - tchan - транзакционный канал Александр Вершилов
-- работа с БД
 - web-sockets
 - сериализация структур
 - FFI
