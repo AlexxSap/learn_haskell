@@ -29,3 +29,11 @@ https://wiki.haskell.org/index.php?title=Smart_constructors
 https://wiki.haskell.org/index.php?title=Category:Idioms
 - Existential type
 https://wiki.haskell.org/Existential_type
+- =<<
+- *>
+- Переменные среды
+- '{..}'
+- @
+- forall
+- Inline
+- QuickCheck
