@@ -27,8 +27,6 @@ https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/generics.html
 https://wiki.haskell.org/index.php?title=Smart_constructors
 - идиомы
 https://wiki.haskell.org/index.php?title=Category:Idioms
-- Existential type
-https://wiki.haskell.org/Existential_type
 - =<<
 - *>
 - Переменные среды
