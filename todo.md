@@ -36,4 +36,3 @@ https://wiki.haskell.org/Existential_type
 - @
 - forall
 - Inline
-- QuickCheck
