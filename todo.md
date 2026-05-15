@@ -21,7 +21,6 @@ https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/generics.html
 - req
 - wreq
 - join
-- >=> и <==< - монадическая композиция
 - FizzBuzz в разных стилях - просто функции, генераторы, монады
 - idiom Smart constructors
 https://wiki.haskell.org/index.php?title=Smart_constructors
