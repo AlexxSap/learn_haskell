@@ -29,4 +29,5 @@ https://wiki.haskell.org/index.php?title=Category:Idioms
 - MkConnectionArgs{mHostname, mOsUser} : Record Puns (включается расширением NamedFieldPuns). Вместо явного MkConnectionArgs { mHostname = mh, mOsUser = ou } можно просто перечислить имена полей, если они совпадают с именами переменных. Компилятор сам создаст локальные переменные mHostname и mOsUser.
 - stm
 - concurency
+- создание документации
 
