@@ -14,13 +14,19 @@
 
 Так же стоит помнить, что значение переменных среды всегда `String`, для преобразования в нужный тип можно использовать `Text.Read.readMaybe`:
 ```haskell
+{-# LANGUAGE BlockArguments #-}
+
 module Main (main) where
 
 import System.Environment (lookupEnv, setEnv)
 import Text.Read (readMaybe)
 
 readInt :: String ->IO (Maybe Int)
-readInt n = lookupEnv n >>= pure . (>>= readMaybe)
+readInt n = do
+    ms <- lookupEnv n
+    pure do
+        s <- ms
+        readMaybe s
 
 name = "STRONG_PASSWORD"
 
@@ -35,4 +41,4 @@ main = do
      print someWrongIntValue -- Nothing
 ```
 
-Для работы с переменными среды есть несколько других библиотек, например [optparse-applicative](https://github.com/pcapriotti/optparse-applicative) и [dotenv-hs](https://github.com/stackbuilders/dotenv-hs).
+Для работы с переменными среды есть несколько других библиотек, например [dotenv-hs](https://github.com/stackbuilders/dotenv-hs).
