@@ -30,4 +30,9 @@ https://wiki.haskell.org/index.php?title=Category:Idioms
 - stm
 - concurency
 - создание документации
-
+- servant - for building web services
+- pandoc - for transforming text document formats
+- async - for concurrent programming
+- esqueleto and persistent - for storing and updating data in databases
+- Frames - for computing with some machine learning methods
+- https://github.com/Gabriella439/post-rfc/blob/main/sotu.md
