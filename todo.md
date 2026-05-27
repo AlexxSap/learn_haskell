@@ -19,10 +19,8 @@ https://wiki.haskell.org/index.php?title=Smart_constructors
 - идиомы
 https://wiki.haskell.org/index.php?title=Category:Idioms
 - *>
-- '{..}'
 - Inline
 - openConnection :: HasCallStack => ConnectionArgs -> IO Connection - констрейнт (ограничение типа). Это не пользовательский класс типов, а встроенное ограничение GHC, которое автоматически привязывает стек вызовов к функции. Позволяет выводить точные сообщения об ошибках с указанием файла и строки, где произошло исключение.
-- MkConnectionArgs{mHostname, mOsUser} : Record Puns (включается расширением NamedFieldPuns). Вместо явного MkConnectionArgs { mHostname = mh, mOsUser = ou } можно просто перечислить имена полей, если они совпадают с именами переменных. Компилятор сам создаст локальные переменные mHostname и mOsUser.
 - stm
 - concurency
 - создание документации
