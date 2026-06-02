@@ -40,5 +40,3 @@ specifiers. It takes a format string and data and produces a String.
 close in their goals but different in their interfaces and implementation.
     - The template package provides a very simple template substitution engine.
 Other full-blown templating systems are used mainly in web programming.
-
-- фиксированная точность Data.Fixed - bragil 41
