@@ -30,13 +30,5 @@ https://wiki.haskell.org/index.php?title=Category:Idioms
 - esqueleto and persistent - for storing and updating data in databases
 - Frames - for computing with some machine learning methods
 - https://github.com/Gabriella439/post-rfc/blob/main/sotu.md
-- text formating 
-    - Data.Text.Lazy.Builder from the text package provides a very limited
-builder without any formatting. We can use it when we have many Text values
-that should be combined into one.
-    - The printf function from the Text.Printf module provides many format
-specifiers. It takes a format string and data and produces a String.
-    - The text-format, formatting, and the more recent fmt packages are very
-close in their goals but different in their interfaces and implementation.
-    - The template package provides a very simple template substitution engine.
-Other full-blown templating systems are used mainly in web programming.
+- форматирование текста с помощью PyF
+- форматирование текста с помощью formatting
