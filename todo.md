@@ -33,6 +33,6 @@ https://wiki.haskell.org/index.php?title=Category:Idioms
 - форматирование текста с помощью formatting
 - монадические парсеры
 - cassava - чтение csv
-- blaze-htm - генерирование html
-- lucid - генерирование html
+- blaze-htm - генерирование html https://jaspervdj.be/blaze/tutorial.html
+- lucid - генерирование html https://chrisdone.com/posts/lucid/
 - colonnade - представление таблиц 
