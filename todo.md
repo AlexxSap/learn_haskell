@@ -31,3 +31,8 @@ https://wiki.haskell.org/index.php?title=Category:Idioms
 - https://github.com/Gabriella439/post-rfc/blob/main/sotu.md
 - форматирование текста с помощью PyF
 - форматирование текста с помощью formatting
+- монадические парсеры
+- cassava - чтение csv
+- blaze-htm - генерирование html
+- lucid - генерирование html
+- colonnade - представление таблиц 
