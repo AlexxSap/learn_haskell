@@ -1,5 +1,4 @@
 - линейные классы
-- линзы
 - brick - tui for haskell
 - tchan - транзакционный канал Александр Вершилов
 - web-sockets
@@ -36,3 +35,7 @@ https://wiki.haskell.org/index.php?title=Category:Idioms
 - blaze-htm - генерирование html https://jaspervdj.be/blaze/tutorial.html
 - lucid - генерирование html https://chrisdone.com/posts/lucid/
 - colonnade - представление таблиц 
+- Optics — это обобщённая версия линз, которая включает в себя:
+  Prisms (призмы) для работы с sum types (например, Either).
+  Traversal для работы с коллекциями или множеством значений.
+  Iso (изоморфизмы) для преобразования данных между двумя формами.
