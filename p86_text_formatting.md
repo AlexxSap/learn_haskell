@@ -4,7 +4,7 @@
 
 Библиотека `fmt` позволяет собрать шаблон строки для форматирования с помощью операторов интерполяции - оператор `+|` начинает вставку значения, а `|+` заканчивает её.
 ```haskell
- LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE OverloadedStrings #-}
 
 module Main (main) where
 
