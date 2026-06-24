@@ -36,5 +36,5 @@ https://wiki.haskell.org/index.php?title=Category:Idioms
 - lucid - генерирование html https://chrisdone.com/posts/lucid/
 - colonnade - представление таблиц 
 - Optics — это обобщённая версия линз, которая включает в себя:
-  Prisms (призмы) для работы с sum types (например, Either).
   Iso (изоморфизмы) для преобразования данных между двумя формами.
+- free monad
