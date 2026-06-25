@@ -35,6 +35,4 @@ https://wiki.haskell.org/index.php?title=Category:Idioms
 - blaze-htm - генерирование html https://jaspervdj.be/blaze/tutorial.html
 - lucid - генерирование html https://chrisdone.com/posts/lucid/
 - colonnade - представление таблиц 
-- Optics — это обобщённая версия линз, которая включает в себя:
-  Iso (изоморфизмы) для преобразования данных между двумя формами.
 - free monad
