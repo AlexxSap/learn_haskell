@@ -17,11 +17,9 @@ https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/generics.html
 https://wiki.haskell.org/index.php?title=Smart_constructors
 - идиомы
 https://wiki.haskell.org/index.php?title=Category:Idioms
-- *>
 - openConnection :: HasCallStack => ConnectionArgs -> IO Connection - констрейнт (ограничение типа). Это не пользовательский класс типов, а встроенное ограничение GHC, которое автоматически привязывает стек вызовов к функции. Позволяет выводить точные сообщения об ошибках с указанием файла и строки, где произошло исключение.
 - stm
 - concurency
-- создание документации
 - servant - for building web services
 - pandoc - for transforming text document formats
 - async - for concurrent programming
