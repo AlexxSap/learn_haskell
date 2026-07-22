@@ -17,7 +17,6 @@ https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/generics.html
 https://wiki.haskell.org/index.php?title=Smart_constructors
 - идиомы
 https://wiki.haskell.org/index.php?title=Category:Idioms
-- openConnection :: HasCallStack => ConnectionArgs -> IO Connection - констрейнт (ограничение типа). Это не пользовательский класс типов, а встроенное ограничение GHC, которое автоматически привязывает стек вызовов к функции. Позволяет выводить точные сообщения об ошибках с указанием файла и строки, где произошло исключение.
 - stm
 - concurency
 - servant - for building web services
@@ -29,7 +28,6 @@ https://wiki.haskell.org/index.php?title=Category:Idioms
 - форматирование текста с помощью PyF
 - форматирование текста с помощью formatting
 - монадические парсеры
-- cassava - чтение csv
 - blaze-htm - генерирование html https://jaspervdj.be/blaze/tutorial.html
 - lucid - генерирование html https://chrisdone.com/posts/lucid/
 - colonnade - представление таблиц 
