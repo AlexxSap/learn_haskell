@@ -32,3 +32,5 @@ https://wiki.haskell.org/index.php?title=Category:Idioms
 - lucid - генерирование html https://chrisdone.com/posts/lucid/
 - colonnade - представление таблиц 
 - free monad
+- custom prelude
+- hlint 
