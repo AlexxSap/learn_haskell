@@ -26,6 +26,5 @@ https://wiki.haskell.org/index.php?title=Category:Idioms
 - форматирование текста с помощью PyF
 - форматирование текста с помощью formatting
 - монадические парсеры
-- colonnade - представление таблиц 
 - custom prelude
 - hlint 
