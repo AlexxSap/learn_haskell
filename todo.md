@@ -1,11 +1,9 @@
-- линейные классы
 - brick - tui for haskell
 - tchan - транзакционный канал Александр Вершилов
 - web-sockets
 - работа с БД - hasql
 - работа с БД - postgresql-libpq
 - работа с БД - persistent
-- сериализация структур
 - FFI
 https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/ffi.html
 - класс типов Generic
@@ -22,9 +20,7 @@ https://wiki.haskell.org/index.php?title=Category:Idioms
 - servant - for building web services
 - pandoc - for transforming text document formats
 - async - for concurrent programming
-- esqueleto and persistent - for storing and updating data in databases
-- форматирование текста с помощью PyF
-- форматирование текста с помощью formatting
+- esqueleto  for storing and updating data in databases
 - монадические парсеры
 - custom prelude
 - hlint 
