@@ -22,4 +22,4 @@ https://wiki.haskell.org/index.php?title=Category:Idioms
 - async - for concurrent programming
 - esqueleto  for storing and updating data in databases
 - монадические парсеры
-
+- https://hackage.haskell.org/package/optparse-applicative
