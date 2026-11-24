@@ -30,3 +30,4 @@ https://wiki.haskell.org/index.php?title=Category:Idioms
 - type-application
 - free monads
 - datakind
+- https://hackage.haskell.org/package/vector
